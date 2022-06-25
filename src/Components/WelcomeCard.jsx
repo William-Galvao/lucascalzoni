@@ -12,7 +12,7 @@ export default function WelcomeCard() {
             <h1 className="card-title p-4 ">Seja bem vindo</h1>
 
             <p className="card-text p-4 fs-4 text-center">
-              Clique aqui para conhecer um pouco da minha história e meus
+              Clique aqui para conhecer um pouco sobre a minha história e meus
               principais trabalhos como ator e cantor.
             </p>
           </div>
