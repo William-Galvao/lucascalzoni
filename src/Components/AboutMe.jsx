@@ -1,4 +1,9 @@
 import Aboutme from "../Images/aboutme.jpg";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+
+library.add(fas);
 
 export default function AboutMe() {
   function getElapsedTime(dateString) {
@@ -13,7 +18,7 @@ export default function AboutMe() {
   }
 
   return (
-    <div className="row my-5" id="aboutme">
+    <div className="row mt-5" id="aboutme">
       <div className="col-sm-5">
         <img
           src={Aboutme}
@@ -32,16 +37,28 @@ export default function AboutMe() {
           </h2>
           <hr />
           <p className="fs-5">
-            Ator (DRT: 54502/SP), {getElapsedTime("02/02/1993")} anos,
-            Campinas/SP. dasdadadadsadadada sdsadadsadadasdas dasdadadaadsdadas
-            dasdasdasdsadsadsadadas dsadasdasdasddasdasda dsa dsad sa dsa das
-            dsad adasq eqwe qe qw eqweqw eqwe qw eqw eqw eqw qweqwe qw eqw eqw
-            eqw ewq ewq{" "}
+            Sou apaixonado pelas artes cênicas desde criança, quando já atuava
+            nos teatros da escola, mas foi em 2018, durante uma viagem à Nova
+            Iorque, que eu decidi abandonar o bacharelado em Petróleo e Gás me
+            dedicar inteiramente aos palcos.
           </p>
           <h3 className="pt-3 text-white">
-            Formação{" "}
+            <FontAwesomeIcon icon="circle-info" /> Detalhes{" "}
+            <span className="fs-6" data-bs-toggle="collapse" href="#details">
+              <FontAwesomeIcon icon="circle-plus" />
+            </span>
+          </h3>
+          <hr />
+          <div className="collapse" id="details">
+            <p className="text-white ">
+              Ator (DRT: 54502/SP) | {getElapsedTime("02/02/1993")} anos | 1.80m
+              | 75Kg
+            </p>
+          </div>
+          <h3 className="pt-3 text-white">
+            <FontAwesomeIcon icon="graduation-cap" /> Formação{" "}
             <span className="fs-6" data-bs-toggle="collapse" href="#formacao">
-              Expandir (+)
+              <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
@@ -67,9 +84,9 @@ export default function AboutMe() {
             </ul>
           </div>
           <h3 className="pt-3 text-white">
-            Workshops{" "}
+            <FontAwesomeIcon icon="people-group" /> Workshops{" "}
             <span className="fs-6" data-bs-toggle="collapse" href="#workshops">
-              Expandir (+)
+              <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
