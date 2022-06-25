@@ -13,7 +13,7 @@ export default function AboutMe() {
   }
 
   return (
-    <div className="row">
+    <div className="row my-5" id="aboutme">
       <div className="col-sm-5">
         <img
           src={Aboutme}
@@ -33,7 +33,10 @@ export default function AboutMe() {
           <hr />
           <p className="fs-5">
             Ator (DRT: 54502/SP), {getElapsedTime("02/02/1993")} anos,
-            Campinas/SP.{" "}
+            Campinas/SP. dasdadadadsadadada sdsadadsadadasdas dasdadadaadsdadas
+            dasdasdasdsadsadsadadas dsadasdasdasddasdasda dsa dsad sa dsa das
+            dsad adasq eqwe qe qw eqweqw eqwe qw eqw eqw eqw qweqwe qw eqw eqw
+            eqw ewq ewq{" "}
           </p>
           <h3 className="pt-3 text-white">
             Formação{" "}

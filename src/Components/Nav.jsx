@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
-
 export default function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -18,19 +16,19 @@ export default function Nav() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav w-100 d-flex justify-content-around">
             <li className="nav-item fs-5">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="#aboutme">
                 Sobre mim
-              </Link>
+              </a>
             </li>
             <li className="nav-item fs-5">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="#works">
                 Principais trabalhos
-              </Link>
+              </a>
             </li>
             <li className="nav-item fs-5">
-              <Link className="nav-link" to="/">
+              <a className="nav-link" href="#gallery">
                 Galeria
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
