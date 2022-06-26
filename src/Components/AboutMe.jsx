@@ -59,14 +59,28 @@ export default function AboutMe() {
             palcos de Nova Iorque, que eu decidi abandonar o bacharelado em
             Petróleo e Gás e me dedicar inteiramente ao ofício.
           </p>
-          <h3 className="pt-3 text-white">
+          <h3
+            className="pt-3 text-white"
+            data-bs-toggle="collapse"
+            href="#contact"
+          >
+            <FontAwesomeIcon icon="envelope" /> Contato{" "}
+            <span className="fs-6 float-end">
+              <FontAwesomeIcon icon="circle-plus" />
+            </span>
+          </h3>
+          <hr />
+          <div className="collapse" id="contact">
+            <p className="text-white ">lucascalzoni@hotmail.com.br</p>
+          </div>
+          <h3
+            className="pt-3 text-white"
+            data-bs-toggle="collapse"
+            href="#details"
+          >
             <FontAwesomeIcon icon="circle-info" /> Detalhes{" "}
-            <span
-              className="fs-6 float-end"
-              data-bs-toggle="collapse"
-              href="#details"
-            >
-              Expandir <FontAwesomeIcon icon="circle-plus" />
+            <span className="fs-6 float-end">
+              <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
@@ -76,14 +90,14 @@ export default function AboutMe() {
               | 75Kg
             </p>
           </div>
-          <h3 className="pt-3 text-white">
+          <h3
+            className="pt-3 text-white"
+            data-bs-toggle="collapse"
+            href="#formacao"
+          >
             <FontAwesomeIcon icon="graduation-cap" /> Formação{" "}
-            <span
-              className="fs-6 float-end"
-              data-bs-toggle="collapse"
-              href="#formacao"
-            >
-              Expandir <FontAwesomeIcon icon="circle-plus" />
+            <span className="fs-6 float-end">
+              <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
@@ -108,14 +122,18 @@ export default function AboutMe() {
               <p>com Moisés Bittencourt / Remoto </p>
             </ul>
           </div>
-          <h3 className="pt-3 text-white">
+          <h3
+            className="pt-3 text-white"
+            data-bs-toggle="collapse"
+            href="#workshops"
+          >
             <FontAwesomeIcon icon="people-group" /> Workshops{" "}
             <span
               className="fs-6 float-end"
               data-bs-toggle="collapse"
               href="#workshops"
             >
-              Expandir <FontAwesomeIcon icon="circle-plus" />
+              <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
