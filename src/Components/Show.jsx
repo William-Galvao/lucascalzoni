@@ -23,7 +23,11 @@ export default function Show(props) {
         <p className="py-2">{`Produção: ${props.producer}`}</p>
       </div>
       <div className="col-sm  d-flex align-items-sm-center justify-content-sm-end">
-        <img src={props.src} alt={`${props.alt}`} className="img-fluid w-25" />
+        <img
+          src={props.src}
+          alt={`${props.alt}`}
+          className="img-fluid w-25 border-img"
+        />
       </div>
     </li>
   );

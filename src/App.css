@@ -53,3 +53,7 @@ h1 {
  ul {
    list-style-type: none;
  }
+
+.border-img {
+  border: 5px solid rgb(41, 43, 44);
+}

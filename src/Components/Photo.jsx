@@ -4,7 +4,7 @@ export default function Photo(props) {
       <img
         src={props.src}
         alt={`${props.alt}`}
-        className="img-fluid w-25 px-2 py-2 zoom "
+        className="img-fluid w-25 mx-3 my-3 zoom border-img"
       />
     </a>
   );

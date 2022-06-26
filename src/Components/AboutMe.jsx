@@ -28,7 +28,7 @@ export default function AboutMe() {
         <img
           src={Aboutme}
           alt="Lucas Calzoni de frente"
-          className="img-fluid w3-hover-grayscale"
+          className="img-fluid w3-hover-grayscale border-img"
         />
       </div>
       <div className="col-sm-7">
@@ -42,10 +42,15 @@ export default function AboutMe() {
           <hr />
           <p className="my-2 float-sm-end">
             <a target="_blank" rel="noopener noreferrer" href={youtube}>
-              <img src={Youtube} alt="Youtube" width="50px" />
+              <img src={Youtube} alt="Youtube" width="50px" className="zoom" />
             </a>
             <a target="_blank" rel="noopener noreferrer" href={instagram}>
-              <img src={Instagram} alt="Instagram" width="50px" />
+              <img
+                src={Instagram}
+                alt="Instagram"
+                width="50px"
+                className="zoom"
+              />
             </a>
           </p>
           <p className="fs-5">
