@@ -1,6 +1,6 @@
-export default function Show(props) {
+export default function Photo(props) {
   return (
-    <a href={props.link}>
+    <a target="_blank" rel="noopener noreferrer" href={props.link}>
       <img
         src={props.src}
         alt={`${props.alt}`}

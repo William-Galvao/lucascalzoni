@@ -1,4 +1,6 @@
 import Aboutme from "../Images/aboutme.jpg";
+import Instagram from "../Images/insta.jpg";
+import Youtube from "../Images/youtube.jpg";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +19,9 @@ export default function AboutMe() {
     return elapsedTime;
   }
 
+  const youtube = "https://www.youtube.com/user/lucascalzoni";
+  const instagram = "https://www.instagram.com/calzonilucas/";
+
   return (
     <div className="row mt-5" id="aboutme">
       <div className="col-sm-5">
@@ -33,14 +38,21 @@ export default function AboutMe() {
             <strong>
               <span className="text-white ">Lucas Calzoni</span>
             </strong>
-            .
           </h2>
           <hr />
+          <p className="my-2 float-sm-end">
+            <a target="_blank" rel="noopener noreferrer" href={youtube}>
+              <img src={Youtube} alt="Youtube" width="50px" />
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href={instagram}>
+              <img src={Instagram} alt="Instagram" width="50px" />
+            </a>
+          </p>
           <p className="fs-5">
             Sou apaixonado pelas artes cênicas desde criança, quando já atuava
-            nos teatros da escola, mas foi em 2018, durante uma viagem à Nova
-            Iorque, que eu decidi abandonar o bacharelado em Petróleo e Gás me
-            dedicar inteiramente aos palcos.
+            nos teatros da escola, mas foi em 2018, durante uma viagem aos
+            palcos de Nova Iorque, que eu decidi abandonar o bacharelado em
+            Petróleo e Gás e me dedicar inteiramente ao ofício.
           </p>
           <h3 className="pt-3 text-white">
             <FontAwesomeIcon icon="circle-info" /> Detalhes{" "}
