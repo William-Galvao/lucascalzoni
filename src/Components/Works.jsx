@@ -1,3 +1,12 @@
+import moana from "../Images/shows/moana.png";
+import aladdin from "../Images/shows/aladdin.png";
+import guardioes from "../Images/shows/guardioes.png";
+import hairspray from "../Images/shows/hairspray.png";
+import mammamia from "../Images/shows/mammamia.png";
+import reidoshow from "../Images/shows/reidoshow.png";
+import viva from "../Images/shows/viva.png";
+import Show from "./Show";
+
 export default function Works() {
   return (
     <div id="works">
@@ -30,13 +39,16 @@ export default function Works() {
             >
               <div className="accordion-body">
                 <ul>
-                  <li>
-                    <h3 className="p-3">Aladdin</h3>
-                    <p>Local: Instituto das Artes Luana Lopes</p>
-                    <p>Personagem: Sultão</p>
-                    <p>Direção: Gustavo Pires</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
+                  <Show
+                    title="Aladdin"
+                    local="Instituto das Artes Luana Lopes"
+                    character="Sultão"
+                    director="Gustavo Pires"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={aladdin}
+                    alt={aladdin}
+                    instagram="https://www.instagram.com/p/CXW-FDHPlJT/?utm_source=ig_web_copy_link"
+                  />
                 </ul>
               </div>
             </div>
@@ -62,13 +74,16 @@ export default function Works() {
             >
               <div className="accordion-body">
                 <ul>
-                  <li>
-                    <h3 className="p-3">A Origem dos Guardiões</h3>
-                    <p>Local: Instituto das Artes Luana Lopes</p>
-                    <p>Personagem: Breu</p>
-                    <p>Direção: Vinicius Conrad</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
+                  <Show
+                    title="A Origem dos Guardiões"
+                    local="Instituto das Artes Luana Lopes"
+                    character="Breu"
+                    director="Vinicius Conrad"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={guardioes}
+                    alt={guardioes}
+                    instagram="https://www.instagram.com/p/CIiz-MTHEkF/?utm_source=ig_web_copy_link"
+                  />
                 </ul>
               </div>
             </div>
@@ -94,20 +109,26 @@ export default function Works() {
             >
               <div className="accordion-body">
                 <ul>
-                  <li>
-                    <h3 className="p-3">Viva A Vida é uma Festa</h3>
-                    <p>Local: Theatro Municipal de Paulinia</p>
-                    <p>Personagem: Pai do Miguel</p>
-                    <p>Direção: Vinicius Conrad</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
-                  <li>
-                    <h3 className="p-3">Hairspray</h3>
-                    <p>Local: Auditório FCM da UNICAMP</p>
-                    <p>Personagem: Corny Collins</p>
-                    <p>Direção: Vinicius Conrad</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
+                  <Show
+                    title="Viva A Vida é uma Festa"
+                    local="Theatro Municipal de Paulinia"
+                    character="Pai do Miguel"
+                    director="Vinicius Conrad"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={viva}
+                    alt={viva}
+                    instagram="https://www.instagram.com/p/B0rDPhsHjaq/?utm_source=ig_web_copy_link"
+                  />
+                  <Show
+                    title="Hairspray"
+                    local="Auditório FCM da UNICAMP"
+                    character="Corny Collins"
+                    director="Vinicius Conrad"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={hairspray}
+                    alt={hairspray}
+                    instagram="https://www.instagram.com/p/B2o2TanHNZr/?utm_source=ig_web_copy_link"
+                  />
                 </ul>
               </div>
             </div>
@@ -133,33 +154,38 @@ export default function Works() {
             >
               <div className="accordion-body">
                 <ul>
-                  <li>
-                    <h3 className="p-3">Moana</h3>
-                    <p>
-                      Local: Theatro Municipal de Paulinia | Teatro Municipal de
-                      Campinas
-                    </p>
-                    <p>Personagem: Ensemble</p>
-                    <p>Direção: Vinicius Conrad</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
-                  <li>
-                    <h3 className="p-3">O Rei do Show</h3>
-                    <p>
-                      Local: Theatro Municipal de Paulinia | Teatro Municipal de
-                      Campinas
-                    </p>
-                    <p>Personagem: Pai do Phillip Carlyle | Ensemble</p>
-                    <p>Direção: Vinicius Conrad</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
-                  <li>
-                    <h3 className="p-3">Mamma Mia</h3>
-                    <p>Local: Auditório FCM da UNICAMP</p>
-                    <p>Personagem: : Harry</p>
-                    <p>Direção: Vinicius Conrad</p>
-                    <p>Produção: Instituto das Artes Luana Lopes</p>
-                  </li>
+                  <Show
+                    title="Moana"
+                    local="Theatro Municipal de Paulinia | Teatro Municipal
+                        de Campinas"
+                    character="Ensemble"
+                    director="Vinicius Conrad"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={moana}
+                    alt={moana}
+                    instagram="https://www.instagram.com/p/BrNxLJ8ntlu/?utm_source=ig_web_copy_link"
+                  />
+                  <Show
+                    title="O Rei do Show"
+                    local="Theatro Municipal de Paulinia | Teatro Municipal
+                        de Campinas"
+                    character="Pai do Phillip Carlyle | Ensemble"
+                    director="Vinicius Conrad"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={reidoshow}
+                    alt={reidoshow}
+                    instagram="https://www.instagram.com/p/BpSA0EkgL0c/?utm_source=ig_web_copy_link"
+                  />
+                  <Show
+                    title="Mamma Mia"
+                    local="Auditório FCM da UNICAMP"
+                    character="Harry"
+                    director="Vinicius Conrad"
+                    producer="Instituto das Artes Luana Lopes"
+                    src={mammamia}
+                    alt={mammamia}
+                    instagram="https://www.instagram.com/p/BqiGhCkAD0-/?utm_source=ig_web_copy_link"
+                  />
                 </ul>
               </div>
             </div>
