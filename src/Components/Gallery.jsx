@@ -14,7 +14,7 @@ export default function Gallery() {
       <hr />
       <div className="d-flex justify-content-center my-5">
         <div>
-          <h1 className="text-white">Galeria de fotos</h1>
+          <h1 className="text-white">Galeria</h1>
         </div>
       </div>
       <div className="mt-5 text-center">
