@@ -44,8 +44,12 @@ export default function AboutMe() {
           </p>
           <h3 className="pt-3 text-white">
             <FontAwesomeIcon icon="circle-info" /> Detalhes{" "}
-            <span className="fs-6" data-bs-toggle="collapse" href="#details">
-              <FontAwesomeIcon icon="circle-plus" />
+            <span
+              className="fs-6 float-end"
+              data-bs-toggle="collapse"
+              href="#details"
+            >
+              Expandir <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
@@ -57,8 +61,12 @@ export default function AboutMe() {
           </div>
           <h3 className="pt-3 text-white">
             <FontAwesomeIcon icon="graduation-cap" /> Formação{" "}
-            <span className="fs-6" data-bs-toggle="collapse" href="#formacao">
-              <FontAwesomeIcon icon="circle-plus" />
+            <span
+              className="fs-6 float-end"
+              data-bs-toggle="collapse"
+              href="#formacao"
+            >
+              Expandir <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
@@ -85,8 +93,12 @@ export default function AboutMe() {
           </div>
           <h3 className="pt-3 text-white">
             <FontAwesomeIcon icon="people-group" /> Workshops{" "}
-            <span className="fs-6" data-bs-toggle="collapse" href="#workshops">
-              <FontAwesomeIcon icon="circle-plus" />
+            <span
+              className="fs-6 float-end"
+              data-bs-toggle="collapse"
+              href="#workshops"
+            >
+              Expandir <FontAwesomeIcon icon="circle-plus" />
             </span>
           </h3>
           <hr />
