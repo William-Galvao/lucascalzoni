@@ -47,6 +47,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={aladdin}
                     alt={aladdin}
+                    link={aladdin}
                     instagram="https://www.instagram.com/p/CXW-FDHPlJT/?utm_source=ig_web_copy_link"
                   />
                 </ul>
@@ -82,6 +83,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={guardioes}
                     alt={guardioes}
+                    link={guardioes}
                     instagram="https://www.instagram.com/p/CIiz-MTHEkF/?utm_source=ig_web_copy_link"
                   />
                 </ul>
@@ -117,6 +119,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={viva}
                     alt={viva}
+                    link={viva}
                     instagram="https://www.instagram.com/p/B0rDPhsHjaq/?utm_source=ig_web_copy_link"
                   />
                   <Show
@@ -127,6 +130,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={hairspray}
                     alt={hairspray}
+                    link={hairspray}
                     instagram="https://www.instagram.com/p/B2o2TanHNZr/?utm_source=ig_web_copy_link"
                   />
                 </ul>
@@ -163,6 +167,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={moana}
                     alt={moana}
+                    link={moana}
                     instagram="https://www.instagram.com/p/BrNxLJ8ntlu/?utm_source=ig_web_copy_link"
                   />
                   <Show
@@ -174,6 +179,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={reidoshow}
                     alt={reidoshow}
+                    link={reidoshow}
                     instagram="https://www.instagram.com/p/BpSA0EkgL0c/?utm_source=ig_web_copy_link"
                   />
                   <Show
@@ -184,6 +190,7 @@ export default function Works() {
                     producer="Instituto das Artes Luana Lopes"
                     src={mammamia}
                     alt={mammamia}
+                    link={mammamia}
                     instagram="https://www.instagram.com/p/BqiGhCkAD0-/?utm_source=ig_web_copy_link"
                   />
                 </ul>
