@@ -22,11 +22,6 @@ export default function Show(props) {
         <p className="py-2">{`Diretor: ${props.director}`}</p>
         <p className="py-2">{`Produção: ${props.producer}`}</p>
       </div>
-      <div className="col-sm d-flex align-items-sm-center text-end">
-        <a target="_blank" rel="noopener noreferrer" href={props.link}>
-          <img src={props.src} alt={`${props.alt}`} className="w-25" />
-        </a>
-      </div>
     </li>
   );
 }
